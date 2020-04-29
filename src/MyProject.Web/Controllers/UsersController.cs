@@ -18,6 +18,9 @@ using MyProject.Web.Models.Users;
 
 namespace MyProject.Web.Controllers
 {
+    /// <summary>
+    /// 权限认证
+    /// </summary>
     [AbpMvcAuthorize(PermissionNames.Pages_Users)]
     public class UsersController : MyProjectControllerBase
     {
